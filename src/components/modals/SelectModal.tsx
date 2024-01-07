@@ -127,7 +127,7 @@ export default function SelectModal({
 	});
 
 	return (
-		<Modal isOpen={isOpen} onClose={onClose} size="lg" autoFocus={true}>
+		<Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose} size="lg" autoFocus={true}>
 			<ModalOverlay />
 			<ModalContent
 				margin="10px 5px"
